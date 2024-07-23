@@ -1,0 +1,10 @@
+/vendor
+/.idea
+/.vscode
+/.vagrant
+.phpunit.result.cache
+/plugins
+/storage/framework/*
+.env
+composer.lock
+/config/*.local.php
