@@ -59,7 +59,6 @@ return [
 
     'providers' => [
         ViewServiceProvider::class,
-        App\Providers\PluginsServiceProvider::class,
         ValidationServiceProvider::class,
         TranslationServiceProvider::class
     ],

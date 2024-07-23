@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Forge\Plugins;
 
 use Forge\Plugins\PluginInterface;
 use Forge\Plugins\PluginManager;
