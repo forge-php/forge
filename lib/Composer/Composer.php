@@ -58,7 +58,7 @@ class Composer
         return $packages->filter(fn($pack) => $pack['name'] === $package)->first();
     }
 
-    public function packageExists(string $name): bool
+    private function packageExists(string $name): bool
     {
         if ($this->lockExists) {
             $packages = new Collection($this->lock['packages']);
@@ -73,5 +73,10 @@ class Composer
         }
 
         return false;
+    }
+
+    public function has(string $package): bool
+    {
+        return $this->packageExists($package);
     }
 }

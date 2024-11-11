@@ -58,7 +58,7 @@ class Npm
         return $packages->filter(fn($pack) => $pack['name'] === sprintf('node_modules/%s', $package), null)->first();
     }
 
-    public function packageExists(string $name): bool
+    private function packageExists(string $name): bool
     {
         if ($this->lockExists) {
             $name = 'node_modules/' . $name;
@@ -74,5 +74,10 @@ class Npm
         }
 
         return false;
+    }
+
+    public function has(string $name): bool
+    {
+        return $this->packageExists($name);
     }
 }
