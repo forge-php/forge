@@ -1,18 +1,17 @@
 {
-    "name": "laravel-zero/laravel-zero",
-    "description": "The Laravel Zero Framework.",
-    "keywords": ["framework", "laravel", "laravel zero", "console", "cli"],
-    "homepage": "https://laravel-zero.com",
+    "name": "forge-php/forge",
+    "description": "Forge CLI.",
+    "keywords": ["console", "cli"],
     "type": "project",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel-zero/laravel-zero/issues",
-        "source": "https://github.com/laravel-zero/laravel-zero"
+        "issues": "https://github.com/forge-php/forge/issues",
+        "source": "https://github.com/forge-php/forge"
     },
     "authors": [
         {
-            "name": "Nuno Maduro",
-            "email": "enunomaduro@gmail.com"
+            "name": "Ashan Ghimire",
+            "email": "ashanghimire10@gmail.com"
         }
     ],
     "require": {
